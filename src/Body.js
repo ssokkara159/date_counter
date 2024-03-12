@@ -26,7 +26,7 @@ const Body = () => {
 
   const handleClear = () => {
     setCount(0);
-    setStep(0);
+    setStep(1);
   };
 
   return (
