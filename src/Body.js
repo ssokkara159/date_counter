@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./body.css";
+import "./Body.css";
 
 const Body = () => {
   const [step, setStep] = useState(1);
