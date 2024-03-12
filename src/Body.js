@@ -24,8 +24,18 @@ const Body = () => {
   date.setDate(date.getDate() + count);
   const reqDate = date.toDateString();
 
+  const handleClear = () => {
+    setCount(0);
+    setStep(0);
+  };
+
   return (
     <div>
+      <div>
+        <button className="clear" onClick={handleClear}>
+          Clear
+        </button>
+      </div>
       <div className="container">
         <div className="steps">
           <button onClick={handleMinusStep}>-</button>
