@@ -1,0 +1,36 @@
+.container {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: slategrey;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+span {
+  padding: 10px;
+  margin: 5px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.date {
+  padding: 10px;
+  margin: 5px;
+  font-size: x-large;
+  font-weight: 700;
+}
